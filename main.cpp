@@ -71,7 +71,7 @@ int main() {
     print("Introdu un cuvant de 5 litere\n", RED);
     int attempts = 0;
     char attempts_arr[6][6];
-    while(attempts < 5) {
+    while(attempts < 6) {
         cin.getline(s, 256);
         if(strlen(s) != 5)
         {
